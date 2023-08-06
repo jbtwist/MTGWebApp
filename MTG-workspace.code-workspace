@@ -1,0 +1,83 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"launch": {
+			"env": {
+				"PYTHONPATH": "${workspaceFolder}"
+			 },
+			"compounds": [],
+			"configurations": [
+				{
+					"name": "Python: Flask",
+					"type": "python",
+					"request": "launch",
+					"console": "internalConsole",
+					"program": "/Users/jbtwist/Portfolio WebApp/backend/app.py",
+					"env": {
+						"FLASK_APP": "/Users/jbtwist/Portfolio WebApp/backend/app.py",
+						"FLASK_DEBUG": "1"
+					},
+					"args": [
+						"run",
+						"--no-debugger",
+						"--no-reload"
+					],
+					"jinja": true,
+					"justMyCode": false
+				}
+			],
+			"version": "0.2.0"
+		},
+		"python.defaultInterpreterPath": "/Users/jbtwist/Portfolio WebApp/backend/.venv/bin/python",
+		"files.associations": {
+            "*.html": "html",
+            "*indico.conf": "python"
+        },
+        "files.exclude": {
+            ".cache/": true,
+            ".pytest_cache/**/*": true,
+            ".tox": true,
+            ".venv": true,
+            "**/__pycache__/": true,
+            "**/.*.swp": true,
+            "**/.cache/": true,
+            "**/.coverage": true,
+            "**/.idea/": true,
+            "**/.pytest_cache/": true,
+            "**/.webassets-cache/": true,
+            "**/*.DS_Store": true,
+            "**/*.egg-info": true,
+            "**/*.log": true,
+            "**/*.min.css": true,
+            "**/*.min.js": true,
+            "**/*.mo": true,
+            "**/*.py[co]": true,
+            "**/*.pyc": true,
+            "**/*.sublime-*": true,
+            "**/*~": true,
+            "**/build/": true,
+            "**/coverage.xml": true,
+            "**/dist/": true,
+            "**/htmlcov/": true,
+            "**/indico/htdocs/*/lib/": true,
+            "**/jsconfig.json": true,
+            "**/logging.yaml": true,
+            "**/messages-react.json": true,
+            "**/node_modules": true,
+            "**/node_modules/": true,
+            "**/static/help/": true,
+            "**/url_map.json": true,
+            "**/webpack-build-config.json": true,
+            "**/wheelhouse/": true,
+            "build": true,
+            "dist": true,
+            "docs/build/": true,
+            "ext_modules/node_env/": true,
+            "indico/web/static/dist": true
+        },
+	}
+}
